@@ -1,0 +1,4 @@
+## These are the required python libraries needed to run meetup_attendees.py
+
+beautifulsoup4==4.3.1
+requests==1.2.3
