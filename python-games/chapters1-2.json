@@ -1,0 +1,10 @@
+{
+    "tasks": [
+        "Task 1 \n Use Python to write a small script that solves and prints out the answer to this problem: \n There are 17 PyLadies members at the event and there are 3 round tables available. \n Let it be table A, table B and table C. \n There are 2 members more sitting at the Table B than at the Table A.  But the number of members at the Table A and C are the same. \n How many members are sitting at each table?",
+        "Task 2 \n Here are two code samples: \n first = range(4) \n second = first \n first += [5] \n print first \n print second \n first = '1234'\n second = first \n first += '5' \n print first \n print second \n What will each of them print? \n Can you explain the results? \n Try to guess without running it in Python interpreter. \n Then check you're right!",
+        "Task 3 \n What will happen if you type this in python interpreter? \n pylady = 'PyLady'\n pylady * pow(2**2,10) \n Try to guess without running it in Python interpreter. \n Then check that you're right!",
+        "Task 4 \n Make Python interpreter print 'Python is awesome'  500 times, each time on a new line.  \n Can you do it in one line of code? \n ",
+        "Task 5 \n What will happen if you type this in python interpreter? \n a, b = 3, 4 \n a+b*10 \n Try to guess without running it \n Then check you're right!",
+        "Task 6 \n Using the list below: \n pyladies = ['Beatrice', 'Kelly', 'Lynn'] \n Add your name to the pyladies list and print each name on the new line using Python."
+    ]
+}
