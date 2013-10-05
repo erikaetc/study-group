@@ -14,11 +14,11 @@ andy.shape('turtle')
 
 andy.up()                  # 4.  Move the turtles to their starting point
 lance.up()
-andy.goto(-290,20)
-lance.goto(-290,-20)
+andy.goto(-290,-80)
+lance.goto(-290,-40)
 
 
-while lance.xcor() < 250 and andy.xcor() < 250:
+while lance.xcor() <= 250 and andy.xcor() <= 250:
 	print "Lance's position:" + " " + str(lance.xcor()) + ", Andy's position:" + " " + str(andy.xcor())
 
 	l = random.randrange(1,20)
@@ -26,6 +26,8 @@ while lance.xcor() < 250 and andy.xcor() < 250:
 
 	a = random.randrange(1,20)
 	andy.forward(a)
+
+print "Lance's finishing position:" + " " + str(lance.xcor()) + ", Andy's finishing position:" + " " + str(andy.xcor())
 
 if lance.xcor() > andy.xcor():
 	print ("Lance won!")
@@ -37,10 +39,6 @@ elif andy.xcor() > lance.xcor():
 
 else:
 	print ("It's a draw!")
-
-#for x in xrange(1,10):
-	
-#	lance.forward(20)
 
 
 wn.exitonclick()
