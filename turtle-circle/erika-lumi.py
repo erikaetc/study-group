@@ -86,7 +86,7 @@ wn.bgcolor('black')
 
 t = createTurtle("Ada", "pink", (0,0), 50)
 
-time.sleep(1                                                                                                    )
+time.sleep(1)
 drawCircle(t, 50, False, "blue")
 drawCircle(t, 40, True, "green")
 
