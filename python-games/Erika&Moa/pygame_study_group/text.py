@@ -1,4 +1,5 @@
 import pygame
+#ny kommentar
 
 class Text(pygame.surface.Surface):
   def __init__(self, string, position):
